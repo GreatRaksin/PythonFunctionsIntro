@@ -14,5 +14,6 @@ def MyAddress(name):
     print("Kiseleva st., 12, office 20.")
     print("Belarus, Minsk")
 
+YourName = input('Как вас зовут?')
 
-print(MyAddress('Demid Raksin'))
+print(MyAddress(YourName))
